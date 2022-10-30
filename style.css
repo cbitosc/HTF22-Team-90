@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+#banner{
+    background: url(./assets/images/bg10.jpg);
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+}
+.logo{
+    width: 90px;
+    position:absolute;
+    top : 4%;
+    left: 4%;
+}
+.banner-text{
+    text-align: center;
+    color: white;
+   
+}
+.banner-text h1{
+    font-size: 70px;
+    font-family: 'Press Start 2P', cursive;
+    padding-top: 20px;
+}
+.banner-text p{
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;;
+    padding-top: 30px;;
+}
+h1{
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 5px;
+    font-family: 'Press Start 2P', cursive;
+}
+.banner-btn{
+    margin: 70px auto 0;
+}
+.banner-btn a{
+    width:150px;
+    text-decoration: none;
+    display:inline-block;
+    margin: 0 25px;
+    padding: 20px 2px;
+    color:white;
+    border: .5px solid white;
+    font-family: 'Press Start 2P', cursive;
+}
+#sideNav{
+    width: 100px;
+    height: 200vh;
+    position:fixed;
+    right:0;
+    top: 0px;;
+    background: #5804ff30;;
+    z-index: 2;
+
+}
+nav ul li{
+    padding-top: 30px;
+    text-align: center;
+    list-style:none;
+    margin: 30px 10px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+#manubtn{
+    width:50px;
+    /* height:50px; */
+    /* background :#13f58c; */
+    text-align: center;
+    position:fixed;
+    display: block;
+    top: 20px;
+    right: 22px;
+    border-radius: 3px;
+    z-index:3;
+    cursor: pointer;
+
+}
+#manubtn img{
+    width: 20px;
+   
+}
+
+
+
