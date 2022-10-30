@@ -38,7 +38,7 @@ client.on('interactionCreate', async interaction => {
   }
 
   if (interaction.commandName === 'livescore') {
-    await interaction.reply('suiii');
+    await interaction.reply('loading...');
   }
 
 });
