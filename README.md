@@ -11,7 +11,7 @@
 ![invite](./assets/images/hopped-in-server.jpg)
 
 #### Make sure bot is online
-![invite](./assets/images/bot-online.jpg)
+![invite](./assets/images/bot_online.jpg)
 
 #### Bot listens to / command
 ![invite](./assets/images/all%20commands.jpg)
