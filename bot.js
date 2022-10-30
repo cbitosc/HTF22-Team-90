@@ -1,4 +1,6 @@
 const { Client, Intents } = require('discord.js');
+const axios = require('axios')
+const { response } = require('express');
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 
 const token = process.env['token']
@@ -15,7 +17,24 @@ client.on('interactionCreate', async interaction => {
   }
 
   if (interaction.commandName === 'livelist') {
-    await interaction.reply('Hey there');
+    let getList = async () => {
+      let resp = await axios('https://api.cricapi.com/v1/currentMatches?apikey=d5b59ee1-4d64-4aed-865d-92d5c11cabe4&offset=10')
+      let matches = resp.data
+
+      return matches
+    }
+
+    let matchesValue = await getList();
+    // console.log(matchesValue.data.length);
+    
+    // console.log("match:", matchesValue.data[0].name , "\nstatus:" , matchesValue.data[0].status )
+
+    for( let i=0; i<matchesValue.data.length; i++){
+      await interaction.reply(`match: ${matchesValue.data[0].name} \n status: ${matchesValue.data[0].status} \n\n`);
+    }
+      
+
+    // await interaction.reply(matchesValue);
   }
 
   if (interaction.commandName === 'livescore') {

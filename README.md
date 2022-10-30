@@ -18,3 +18,7 @@
 
 #### You can always use /help to get help
 ![invite](./assets/images/help.jpg)
+
+#### You can use the above commands to get scores and other details
+![invite](./assets/images/livelist.jpg)
+
