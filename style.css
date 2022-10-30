@@ -4,7 +4,7 @@
     
 }
 #banner{
-    background: url(bg10.jpg);
+    background: url(./assets/images/bg10.jpg);
     background-size:cover;
     background-position: center;
     height: 100vh;
@@ -31,8 +31,9 @@
     padding-top: 30px;;
 }
 h1{
-    font-size: 15px;
+    font-size: 12px;
     padding-top: 10px;
+    padding-left: 5px;
     font-family: 'Press Start 2P', cursive;
 }
 .banner-btn{
@@ -42,39 +43,44 @@ h1{
     width:150px;
     text-decoration: none;
     display:inline-block;
-    margin: 0 20px;
-    padding: 20px 0;
+    margin: 0 25px;
+    padding: 20px 2px;
     color:white;
     border: .5px solid white;
     font-family: 'Press Start 2P', cursive;
 }
 #sideNav{
-    width: 130px;
+    width: 100px;
     height: 200vh;
     position:fixed;
     right:0;
-    top: 10px;;
-    background: #5046dd;;
+    top: 0px;;
+    background: #5804ff30;;
     z-index: 2;
 
 }
 nav ul li{
+    padding-top: 30px;
+    text-align: center;
     list-style:none;
-    margin: 50px 20px;
+    margin: 30px 10px;
 
 }
 nav ul li a{
     text-decoration: none;
     color: white;
+    font-size: 20px;
+    text-align: center;
 }
 #manubtn{
     width:50px;
-    height:50px;
-    background :#5046dd;
+    /* height:50px; */
+    /* background :#13f58c; */
     text-align: center;
-    position: fixed;
-    right:20px;
-    top:20px;
+    position:fixed;
+    display: block;
+    top: 20px;
+    right: 22px;
     border-radius: 3px;
     z-index:3;
     cursor: pointer;

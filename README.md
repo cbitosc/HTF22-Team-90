@@ -1,5 +1,8 @@
 # HTF22-Team-90
 ## A cool discord bot that updates you about the live scores of your favouraite sport
+
+#### Go to the website and click invite
+![invite](./assets/images/landing-page.jpg)
  
 #### Invite the bot
 ![invite](./assets/images/screenshot-invite.jpg)
